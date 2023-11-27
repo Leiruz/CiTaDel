@@ -6,6 +6,7 @@ html, body {
     padding: 0;
     font-family: 'Lato', sans-serif;
     color: #1f4568;
+    scroll-behavior:smooth;
 }
 
 body {
@@ -401,10 +402,27 @@ body {
     line-height: 23px;
 }
 
-.item__avatar {
+.item__avatar_1 {
     height: 45px;
     width: 45px;
-    background-image: url("https://static.pexels.com/photos/428333/pexels-photo-428333.jpeg");
+    background-image: url("https://media.licdn.com/dms/image/C5103AQFNrt5pKBKjkg/profile-displayphoto-shrink_100_100/0/1541250372450?e=1706745600&v=beta&t=l-HGKsrQ7Fq_iqC08PRnSHw_-2Kwoz4-Iw0lNA9Jlh4"); background-size: cover;
+    border-radius: 50%;
+    margin: 50px auto 15px auto;
+}
+
+.item__avatar_2 {
+    height: 45px;
+    width: 45px;
+    background-image: url("https://media.licdn.com/dms/image/D4D03AQE_NczmF72EFg/profile-displayphoto-shrink_200_200/0/1695657572518?e=1706745600&v=beta&t=Hk2knc1wr4hheWlrVag7hbZiqKcMitbsYirVS-jL6zs");
+    background-size: cover;
+    border-radius: 50%;
+    margin: 50px auto 15px auto;
+}
+
+.item__avatar_3 {
+    height: 45px;
+    width: 45px;
+    background-image: url("");
     background-size: cover;
     border-radius: 50%;
     margin: 50px auto 15px auto;
@@ -756,7 +774,7 @@ body {
 
 
 .footer {
-    background-color: #1f4467;
+    background-color: #b1b2b3;
     padding: 40px 0;
 }
 
